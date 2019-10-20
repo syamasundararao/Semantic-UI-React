@@ -60,10 +60,12 @@ const SidebarExampleCallback = () => {
           </Sidebar>
 
           <Sidebar.Pusher>
-            <Segment basic>
+            <Segment basic style={{width:400px}}>
               <Header as='h3'>Application Content</Header>
               <Image src='/images/wireframe/paragraph.png' />
             </Segment>
+<Segment>
+</Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
       </Grid.Column>
